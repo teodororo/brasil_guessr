@@ -180,7 +180,7 @@ def display_year_result(
     year_diff = abs(guess_year - photo.year)
 
     st.write("---")
-    st.markdown("**:green-background[:green[Ano]]**")
+    st.write("**:green-background[:green[Ano]]**")
     st.write(year_msg)
     st.write(f"**🔵 Você chutou:** {guess_year}")
     st.write(f"**🟢 Correto:** {photo.year}")
@@ -199,7 +199,7 @@ def display_location_result(
     guess_lat, guess_lon = guess_coords
 
     st.write("---")
-    st.markdown("**:blue-background[:blue[Localização]]**")
+    st.write("**:blue-background[:blue[Localização]]**")
     st.write(location_msg)
     st.write(f"**🔵 Você chutou:** ({guess_lat:.3f}, {guess_lon:.3f})")
     st.write(f"**🟢 Correto:** ({photo.latitude:.3f}, {photo.longitude:.3f})")
