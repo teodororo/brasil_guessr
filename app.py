@@ -403,7 +403,8 @@ def show_final_screen() -> None:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown(
+        st.write("---")
+        st.success(
             f"**🏆 Sua pontuação final:** {st.session_state.total_score} pontos"
         )
         st.write("---")
