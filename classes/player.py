@@ -1,7 +1,5 @@
 class Player:
     """
-    Representa um jogador do Brasil Guessr.
-
     Attributes:
         name (str): Nome do jogador
         total_score (int): Pontuação total acumulada
@@ -12,13 +10,6 @@ class Player:
         self.name = name
         self.total_score = total_score
         self.games_played = games_played
-
-    @property
-    def average_score(self) -> float:
-        """Calcula a pontuação média do jogador"""
-        if self.games_played == 0:
-            return 0
-        return self.total_score / self.games_played
 
     @classmethod
     def from_dict(cls, data: dict):

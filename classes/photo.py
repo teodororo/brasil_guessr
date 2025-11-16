@@ -33,15 +33,3 @@ class Photo:
             year=data['year'],
             description=data['description'],
         )
-
-    def to_dict(self) -> dict:
-        """Converte a foto para dicionário"""
-        return {
-            'id': self.id,
-            'url': self.url,
-            'photographer': self.photographer,
-            'latitude': self.latitude,
-            'longitude': self.longitude,
-            'year': self.year,
-            'description': self.description
-        }

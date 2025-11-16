@@ -1,16 +1,16 @@
 [
   {
-    "name": "giovanna",
+    "name": "Giovanna",
+    "total_score": 101600,
+    "games_played": 4
+  },
+  {
+    "name": "Alessandra Souza",
     "total_score": 74600,
     "games_played": 1
   },
   {
-    "name": "alessandra",
-    "total_score": 74600,
-    "games_played": 1
-  },
-  {
-    "name": "mateus",
+    "name": "mateusgg",
     "total_score": 74600,
     "games_played": 1
   }

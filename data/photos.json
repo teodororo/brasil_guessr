@@ -3,8 +3,8 @@
     "id": 1,
     "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Destro%C3%A7os_de_Alc%C3%A2ntara_6_%282003-08-25%29.jpg",
     "photographer": "Rose Brasil | AGÊNCIA BRASIL",
-    "latitude": -3.1304,
-    "longitude": -60.0233,
+    "latitude": -2.3176511967786486,
+    "longitude": -44.36778292534917,
     "year": 2003,
     "description": "Explosão no Centro de Lançamento de Alcântara, Maranhão."
   },
@@ -12,8 +12,8 @@
     "id": 2,
     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ayrton_Senna_at_Interlagos_1993.jpg?20131003060345",
     "photographer": "Instituto Ayrton Senna",
-    "latitude": -15.7998,
-    "longitude": -47.8645,
+    "latitude": -23.70441309805002,
+    "longitude": -46.698797103750856,
     "year": 1993,
     "description": "Ayrton Senna comemorando sua vitória no Grand Prix em Interlagos, São Paulo."
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "url": "https://cloudfront-us-east-1.images.arcpublishing.com/estadao/DRX5TGX5ZFKMPF4I4SP7TT66NY.jpg",
     "photographer": "Flávio de Barros",
-    "latitude": -22.9519,
-    "longitude": -43.2105,
+    "latitude": -9.899751534587327,
+    "longitude": -39.14345525842002,
     "year": 1897,
     "description": "Prisioneiros do Exército brasileiro em Canudos, Bahia."
   },
@@ -30,10 +30,19 @@
     "id": 4,
     "url": "https://queenlive.ca/queen/live%20pics/85-01-12_Rio_12.jpg",
     "photographer": "Queenlive",
-    "latitude": -22.9519,
-    "longitude": -43.2105,
+    "latitude": -22.977151010553555,
+    "longitude": -43.40595408776841,
     "year": 1985,
     "description": "Show do Queen no primeiro Rock in Rio, Rio de Janeiro."
+  },
+  {
+    "id": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Constru%C3%A7%C3%A3o_de_Bras%C3%ADlia_1959-18.jpg/960px-Constru%C3%A7%C3%A3o_de_Bras%C3%ADlia_1959-18.jpg",
+    "photographer": "Queenlive",
+    "latitude": -15.799567355879542,
+    "longitude": -47.86342261411265,
+    "year": 1959,
+    "description": "Construção de Brasília, Distrito Federal."
   }
 
 ]
