@@ -8,6 +8,8 @@ Todas as imagens utilizadas são de domínio público ou sob a licença CC BY-NC
 
 Aplicação hospedada gratuitamente no Streamlit Community. Acesse também via seção [Explore](https://share.streamlit.io/).
 
+Projeto final para a avaliação da disciplina Programação Python da [Formação em Cibersegurança](https://connor.icomp.ufam.edu.br/) oferecida pela UFAM.
+
 ## Instalação
 
 **1. Crie um ambiente virtual**
@@ -68,3 +70,4 @@ Submeta um PR editando o arquivo `data/photos.json` seguindo o formato:
   "description": "COP30 em Belém, Pará."
 }
 ```
+
