@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 # Constantes
 BRAZIL_CENTER_LAT = -14.235
 BRAZIL_CENTER_LON = -51.9253
-DEFAULT_ZOOM = 4
+DEFAULT_ZOOM = 3
 RESULT_MAP_ZOOM = 5
 MAP_WIDTH = 500
 MAP_HEIGHT = 300
