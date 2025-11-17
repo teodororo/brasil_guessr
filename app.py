@@ -388,9 +388,13 @@ def display_ranking(limit: int = 10) -> None:
     if top_players:
         for i, player in enumerate(top_players, 1):
             medal = "🥇" if i == 1 else "🥈" if i == 2 else "🥉" if i == 3 else f"{i}."
+
+            # Singular se for 1, plural se for maior que 1
+            jogo_str = "jogo" if player.games_played == 1 else "jogos"
+
             st.write(
                 f"{medal} **{player.name}** - {player.total_score} pontos "
-                f"({player.games_played} jogos)"
+                f"({player.games_played} {jogo_str})"
             )
     else:
         st.info("Nenhum jogador no ranking ainda. Seja o primeiro!")

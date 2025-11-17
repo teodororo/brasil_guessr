@@ -8,7 +8,14 @@ Todas as imagens utilizadas são de domínio público ou sob a licença CC BY-NC
 
 Aplicação hospedada gratuitamente no Streamlit Community. Acesse também via seção [Explore](https://share.streamlit.io/).
 
-Projeto final para a avaliação da disciplina Programação Python da [Formação em Cibersegurança](https://connor.icomp.ufam.edu.br/) oferecida pela UFAM.
+Projeto final para a avaliação da disciplina Programação Python da [Formação em Cibersegurança](https://connor.icomp.ufam.edu.br/) da UFAM.
+
+## Feedbacks
+
+O jogo foi testado com cerca de 5 jogadores, que apontaram diversos bugs (mapa muito grande, não dava pra dar zoom, ranking confuso). Após a correção dos bugs mais críticos, as avaliações ficaram positivas.
+
+![](https://iili.io/fJRrI9a.png)
+
 
 ## Instalação
 
@@ -54,6 +61,7 @@ streamlit run app.py
 - Os rankings somem se o website for desativado por inatividade, o apropriado seria enviar os rankings via requests (API) para algum banco de dados.
 - Como as imagens não foram baixadas (é feito um link ao website onde elas estão hospedadas), elas podem ficar indisponíveis se o host delas ficar indisponível.
 - Como as imagens não foram baixadas, o usuário pode clicar com o botão direito, abri-las no website onde elas estão hospedadas e descobrir a resposta.
+- Não há filtro dos nomes dos jogadores. Alguém mal intecionado pode inserir muitos palavrões.
 
 ## Como contribuir com novas fotos
 
